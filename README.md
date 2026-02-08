@@ -104,12 +104,12 @@ chemical-equipment-visualizer/
 
 ### 1. Backend (Django)
 
-#### 1.1: Open terminal:
+####     Open terminal:
 
 ```bash
 cd backend/server
 ```
-#### 1.2: Activate virtual environment:
+####     Activate virtual environment:
 ```bash
 venv\Scripts\activate
 ```
