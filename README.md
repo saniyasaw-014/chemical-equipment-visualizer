@@ -200,7 +200,7 @@ for testing and demo.
 4. Upload `sample_equipment_data.csv`.
 5. View summary and chart.
 
-For desktop:
+### For desktop:
 1. Run `python main.py`
 2. Login
 3. Upload CSV
