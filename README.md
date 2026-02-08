@@ -166,11 +166,14 @@ python main.py
 -Login using same credentials and upload CSV.
 
 ### API Endpoints
-Method,Endpoint,Description
-POST,/api/token/,Login and get JWT token
-POST,/api/upload/,Upload CSV file
-GET,/api/summary/latest/,Get latest summary statistics
-GET,/api/history/,Get upload history (Last 5)
+
+| Method | Endpoint              | Description                         |
+|--------|----------------------|-------------------------------------|
+| POST   | /api/token/          | Login and get JWT token             |
+| POST   | /api/upload/         | Upload CSV file                     |
+| GET    | /api/summary/latest/| Get latest summary statistics       |
+| GET    | /api/history/        | Get upload history (Last 5)         |
+
 ### Sample Data
 
 Use:
@@ -180,10 +183,10 @@ sample_equipment_data.csv
 
 for testing and demo.
 
-Notes
+### Notes
 
-Both web and desktop applications use the same Django backend.
+-Both web and desktop applications use the same Django backend.
 
-Only last 5 uploads are stored.
+-Only last 5 uploads are stored.
 
-Charts are generated using Chart.js (web) and Matplotlib (desktop).
+-Charts are generated using Chart.js (web) and Matplotlib (desktop).
