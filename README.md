@@ -190,3 +190,18 @@ for testing and demo.
 -Only last 5 uploads are stored.
 
 -Charts are generated using Chart.js (web) and Matplotlib (desktop).
+
+
+## Quick Test Guide
+
+1. Start Django backend.
+2. Start React web app.
+3. Login using admin credentials.
+4. Upload `sample_equipment_data.csv`.
+5. View summary and chart.
+
+For desktop:
+1. Run `python main.py`
+2. Login
+3. Upload CSV
+4. View chart popup.
