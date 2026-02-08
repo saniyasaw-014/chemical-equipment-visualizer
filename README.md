@@ -96,7 +96,7 @@ chemical-equipment-visualizer/
 │
 ├── sample_equipment_data.csv
 └── README.md
-'''
+```
 
 ---
 
@@ -104,24 +104,25 @@ chemical-equipment-visualizer/
 
 ### 1. Backend (Django)
 
-Open terminal:
+#### 1.1: Open terminal:
 
 ```bash
 cd backend/server
-Activate virtual environment:
-
+```
+#### 1.2: Activate virtual environment:
+```bash
 venv\Scripts\activate
+```
 
-
-Install dependencies (if needed):
-
+#### 1.3: Install dependencies (if needed):
+```bash
 pip install django djangorestframework pandas django-cors-headers djangorestframework-simplejwt
+```
 
-
-Run migrations:
-
+#### 1.4: Run migrations:
+```bash
 python manage.py migrate
-
+```
 
 Create admin user:
 
