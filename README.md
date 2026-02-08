@@ -114,72 +114,69 @@ cd backend/server
 venv\Scripts\activate
 ```
 
-#### 1.3: Install dependencies (if needed):
+-Install dependencies (if needed):
 ```bash
 pip install django djangorestframework pandas django-cors-headers djangorestframework-simplejwt
 ```
 
-#### 1.4: Run migrations:
+-Run migrations:
 ```bash
 python manage.py migrate
 ```
 
-Create admin user:
-
+-Create admin user:
+```bash
 python manage.py createsuperuser
+```
 
-
-Start server:
-
+-Start server:
+```bash
 python manage.py runserver
+```
 
-
-Backend will run at:
-
+#### Backend will run at:
+```bash
 http://127.0.0.1:8000
+```
 
-2. Web Frontend (React)
+### 2. Web Frontend (React)
 
-Open new terminal:
-
+-Open new terminal:
+```bash
 cd web
 npm install
 npm start
+```
 
-
-Web app runs at:
-
+#### Web app runs at:
+```bash
 http://localhost:3000
+```
 
+-Login using Django superuser credentials.
 
-Login using Django superuser credentials.
+### 3. Desktop Application (PyQt5)
 
-3. Desktop Application (PyQt5)
-
-Open another terminal:
-
+-Open another terminal:
+```bash
 cd desktop
 python main.py
+```
 
+-Login using same credentials and upload CSV.
 
-Login using same credentials and upload CSV.
+### API Endpoints
+Method,Endpoint,Description
+POST,/api/token/,Login and get JWT token
+POST,/api/upload/,Upload CSV file
+GET,/api/summary/latest/,Get latest summary statistics
+GET,/api/history/,Get upload history (Last 5)
+### Sample Data
 
-API Endpoints
-
-POST /api/token/ – Login and get JWT token
-
-POST /api/upload/ – Upload CSV file
-
-GET /api/summary/latest/ – Latest summary
-
-GET /api/history/ – Upload history
-
-Sample Data
-
-Use the provided file:
-
+Use:
+```text
 sample_equipment_data.csv
-
+```
 
 for testing and demo.
 
