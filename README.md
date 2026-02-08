@@ -96,6 +96,7 @@ chemical-equipment-visualizer/
 │
 ├── sample_equipment_data.csv
 └── README.md
+'''
 
 ---
 
